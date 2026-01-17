@@ -1453,7 +1453,7 @@ See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ### Reporting Vulnerabilities
 
-Report security issues to: security@yourproject.com
+Report security issues to: ookkshirsagar@gmail.com
 
 **Do not create public issues for security vulnerabilities.**
 
