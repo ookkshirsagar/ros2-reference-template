@@ -4,6 +4,42 @@
 [![ROS 2 Humble](https://img.shields.io/badge/ROS%202-Humble-green.svg)](https://docs.ros.org/en/humble/)
 [![ROS 2 Iron](https://img.shields.io/badge/ROS%202-Iron-orange.svg)](https://docs.ros.org/en/iron/)
 [![ROS 2 Jazzy](https://img.shields.io/badge/ROS%202-Jazzy-purple.svg)](https://docs.ros.org/en/jazzy/)
+
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Supported Platforms and Versions](#supported-platforms-and-versions)
+- [Workspace Structure](#workspace-structure)
+- [Creating the ROS 2 Workspace](#creating-the-ros-2-workspace)
+- [Dependency Management](#dependency-management)
+- [Creating Packages](#creating-packages)
+- [Python Node](#python-node)
+- [C++ Node](#c-node)
+- [Launch Files](#launch-files)
+- [Build and Run Instructions](#build-and-run-instructions)
+- [Development Workflow](#development-workflow)
+- [Testing](#testing)
+- [Code Quality](#code-quality)
+- [Performance Considerations](#performance-considerations)
+- [Cleaning the Workspace](#cleaning-the-workspace)
+- [Continuous Integration](#continuous-integration)
+- [Docker Deployment](#docker-deployment)
+- [Advanced Configuration](#advanced-configuration)
+- [Troubleshooting](#troubleshooting)
+- [Git Ignore](#git-ignore)
+- [Rules and Best Practices](#rules-and-best-practices)
+- [Contributing](#contributing)
+- [Extending This Template](#extending-this-template)
+- [Documentation](#documentation)
+- [Versioning](#versioning)
+- [Security](#security)
+- [Resources](#resources)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Support](#support)
+
+- 
 ## Overview
 
 This repository provides a production-ready ROS 2 workspace template for professional development. It demonstrates standard package structure, build configuration, development workflows, testing, and CI/CD integration for both Python and C++ nodes.
