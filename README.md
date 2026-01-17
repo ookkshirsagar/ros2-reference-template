@@ -1504,6 +1504,6 @@ For questions and support:
 
 ---
 
-**Maintained by:** Your Name / Organization  
+**Maintained by:** Omkar Chandrakant Kshirsagar
 **Last Updated:** 2026-01-17  
 **ROS 2 Version:** Humble / Iron / Jazzy
