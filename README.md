@@ -39,7 +39,6 @@
 - [Acknowledgments](#acknowledgments)
 - [Support](#support)
 
-- 
 ## Overview
 
 This repository provides a production-ready ROS 2 workspace template for professional development. It demonstrates standard package structure, build configuration, development workflows, testing, and CI/CD integration for both Python and C++ nodes.
