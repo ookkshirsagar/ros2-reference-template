@@ -14,6 +14,7 @@
 - [Creating the ROS 2 Workspace](#creating-the-ros-2-workspace)
 - [Dependency Management](#dependency-management)
 - [Creating Packages](#creating-packages)
+- [Automatic Workspace Sourcing](#automatic-workspace-sourcing)
 - [Python Node](#python-node)
 - [C++ Node](#c-node)
 - [Launch Files](#launch-files)
@@ -120,7 +121,40 @@ Initialize the workspace by building with no packages:
 ```bash
 colcon build
 ```
+## Automatic Workspace Sourcing
 
+To avoid manually sourcing the workspace in every new terminal, add it to your `.bashrc`:
+```bash
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+
+**Alternative: Manual editing**
+```bash
+gedit ~/.bashrc
+```
+
+Add these lines at the end of the file:
+```bash
+# ROS 2 Humble setup
+source /opt/ros/humble/setup.bash
+
+# Workspace setup
+source ~/ros2_ws/install/setup.bash
+```
+
+Save and close, then reload:
+```bash
+source ~/.bashrc
+```
+
+**Important Notes:**
+- This makes the workspace available automatically in every new terminal
+- If you have multiple workspaces, source only the one you're actively using
+- Rebuild the workspace whenever you modify packages, then the sourcing happens automatically
+
+  
 ## Dependency Management
 
 ### System Dependencies
